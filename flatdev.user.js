@@ -59,12 +59,12 @@ $(window).load(function () { // Theme Color Scheme Changer
         'green': '#7ECB61',
         'orange': '#D29C2D',
         'purple': '#724FAD',
-        'red': '#CB6161',
+        'red': '#F72323',
         'darkblue': '#00528f',
         'darkgreen': '#35713F',
         'darkorange': '#9A782E',
         'darkpurple': '#4D2D5E',
-        'darkred': '#641C1C'
+        'darkred': '#F72323'
     };
     if (!localStorage.getItem('theme'))
         localStorage.setItem('theme', 'cl-' + Object.keys(colours) [0]);
