@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name          Flat Darkness - Development
-// @namespace     https://github.com/iHydra
+// @namespace     https://github.com/iHydras
 // @version       1.5.4a
-// @description   Custom theme for Hack Forums. Base theme by Sasori.
+// @description   Custom theme for Hack Forums. Base theme by Sasori.s
 // @include       http://www.hackforums.net/*
 // @include       http://hackforums.net/*
 // @author        iHydra/Kondax/Sasori
@@ -56,12 +56,12 @@ $(window).load(function () { // Theme Color Scheme Changer
     var colours = {
         'black': '#393939',
         'blue': '#619ECB',
-        'green': '#7ECB61',
+        'green': '#0A8C0E',
         'orange': '#D29C2D',
         'purple': '#724FAD',
         'red': '#F72323',
         'darkblue': '#00528f',
-        'darkgreen': '#35713F',
+        'darkgreen': '#0A8C0E',
         'darkorange': '#9A782E',
         'darkpurple': '#4D2D5E',
         'darkred': '#F72323'
