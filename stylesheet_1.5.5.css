@@ -1117,7 +1117,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
 }
 
 .cl-darkgreen td.tcat {
-    background-color: #35713F !important;
+    background-color: #50F353 !important;
 }
 
 .cl-darkgreen a:hover {
@@ -1125,7 +1125,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
 }
 
 .cl-darkgreen input.button:hover, .cl-darkgreen .button2:hover, .cl-darkgreen button2:hover, .cl-darkgreen .button:hover, .cl-darkgreen button:hover, .cl-darkgreen a.bitButton:hover, .cl-darkgreen input.bitButton:hover, .cl-darkgreen span.bitButton:hover {
-    background-color: #35713F !important;
+    background-color: #50F353 !important;
     border: 0px !important;
     color: white !important;
 }
@@ -1143,7 +1143,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
 }
 
 .cl-darkgreen div.menu ul:after {
-    background-color: #35713F !important;
+    background-color: #50F353 !important;
 }
 
 /** ORANGE THEME **/
@@ -1865,4 +1865,3 @@ td .star_rating {
     border-radius: 0px !important;
     background-color: #333333;
 }
-
