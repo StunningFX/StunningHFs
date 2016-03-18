@@ -1,16 +1,14 @@
 // ==UserScript==
-// @name          SEXYHF
-// @namespace     https://github.com/StunningFX
-// @version       1.5.5
+// @name          sexyhf
+// @namespace     https://github.com/iHydra
+// @version       1.5.578
 // @description   Custom theme for Hack Forums. Base theme by Sasori.
 // @include       http://www.hackforums.net/*
 // @include       http://hackforums.net/*
-// @author        BETTER FUCKING Cs
-// @updateURL     https://github.com/iHydra/flatdarkness/raw/master/flatdev.meta.js
-// @downloadURL   https://github.com/StunningFX/StunningHFs/blob/master/flatdev.user.js
+// @author        iHydra/Kondax/Sasori
 // @require       https://code.jquery.com/jquery-2.1.4.min.js
 // @require       https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js
-// @resource      MainCSS https://github.com/StunningFX/StunningHFs/blob/master/stylesheet_1.5.5.css
+// @resource      MainCSS https://raw.githubusercontent.com/StunningFX/StunningHFs/master/stylesheet_1.5.5.css
 // @resource      HLCSS https://raw.githubusercontent.com/isagalaev/highlight.js/master/src/styles/monokai-sublime.css 
 // @grant         GM_addStyle
 // @grant         GM_setValue
@@ -56,16 +54,16 @@ $(window).load(function () { // Theme Color Scheme Changer
     $('body').append(cp, select);
     var colours = {
         'black': '#393939',
-        'blue': '#23A5F7',
-        'green': '#7ECB61',
+        'blue': '#619ECB',
+        'green': '#117713',
         'orange': '#D29C2D',
         'purple': '#724FAD',
-        'red': '#F72323',
-        'darkblue': '#23A5F7',
-        'darkgreen': '#35713F',
+        'red': '#CB6161',
+        'darkblue': '#00528f',
+        'darkgreen': '#117713',
         'darkorange': '#9A782E',
         'darkpurple': '#4D2D5E',
-        'darkred': '#F72323'
+        'darkred': '#641C1C'
     };
     if (!localStorage.getItem('theme'))
         localStorage.setItem('theme', 'cl-' + Object.keys(colours) [0]);
@@ -301,5 +299,3 @@ $(document).ready(function () {
     $('a[href="http://hackforums.net/member.php?action=profile&uid=2377407"] > span[class^="group"]').append('<img title="Developer of Flat Darkness" src="http://i.imgur.com/EpQPylI.png" style="position: relative;top: 3px;left: 3px;"/>');
     
 });
-
- 
