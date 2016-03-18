@@ -1303,7 +1303,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
 }
 
 .cl-red td.tcat {
-    background-color: #F72323 !important;
+    background-color: #50F353 !important;
 }
 
 .cl-red a:hover {
@@ -1311,7 +1311,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
 }
 
 .cl-red input.button:hover, .cl-red .button2:hover, .cl-red button2:hover, .cl-red .button:hover, .cl-red button:hover, .cl-red a.bitButton:hover, .cl-red input.bitButton:hover, .cl-red span.bitButton:hover {
-    background-color: #F72323 !important;
+    background-color: #50F353 !important;
     border: 0px !important;
     color: white !important;
 }
@@ -1329,7 +1329,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
 }
 
 .cl-red div.menu ul:after {
-    background-color: #F72323 !important;
+    background-color: #50F353 !important;
 }
 
 /** DARK RED THEME **/
@@ -1865,5 +1865,4 @@ td .star_rating {
     border-radius: 0px !important;
     background-color: #333333;
 }
-
 
