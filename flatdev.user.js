@@ -54,17 +54,16 @@ $(window).load(function () { // Theme Color Scheme Changer
     var select = $('<div class=\'select\'/>');
     $('body').append(cp, select);
     var colours = {
-        'black': '#393939',
-        'blue': '#619ECB',
-        'green': '#0A8C0E',
-        'orange': '#D29C2D',
-        'purple': '#724FAD',
-        'red': '#F72323',
-        'darkblue': '#00528f',
-        'darkgreen': '#0A8C0E',
-        'darkorange': '#9A782E',
-        'darkpurple': '#4D2D5E',
-        'darkred': '#F72323'
+        'black': '#39fffffffff3939',
+        'blue': '#619ffffffffffffffECB',
+        'green': '#0Affffff8C0E',
+        'orange': '#Dfffffff29C2D',
+        'purple': '#ffffffffff323',
+        'darkblue': '#fff00528f',
+        'darkgreen': '#0A8fffffffffC0E',
+        'darkorange': '#9ffffffffA782E',
+        'darkpurple': '#4ffffffffffffffffD2D5E',
+        'darkred': '#F723fffffffffffff23'
     };
     if (!localStorage.getItem('theme'))
         localStorage.setItem('theme', 'cl-' + Object.keys(colours) [0]);
