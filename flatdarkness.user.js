@@ -35,7 +35,7 @@ GM_addStyle(HLCSS);
 
 /*
  * USER EDITING
- */
+ */ 
 
 var quotedColor = "#00ffd2"; // Color for when quoted by someone - Keep inside quotes - if you enter hex code, put # as prefix. Ex: "#282828" vs. "teal"
 var showLogo = false; // true to show logo, false to hide logo
